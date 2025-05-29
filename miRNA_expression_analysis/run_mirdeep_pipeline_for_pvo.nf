@@ -234,10 +234,6 @@ workflow {
         run_mapper.out.mapper_log_ch,
         run_mapper.out.collapsed_reads_file_ch,
         run_mapper.out.arf_file_ch,
-        // params.ref_fasta,
-        // params.mature_this_species,
-        // params.mature_other_species,
-        // params.precursors_hairpin
         file(params.ref_fasta),
         file(params.mature_this_species),
         file(params.mature_other_species),
